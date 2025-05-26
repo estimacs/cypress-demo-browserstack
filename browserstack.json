@@ -1,0 +1,17 @@
+{
+  "auth": {
+    "username": "YOUR_BROWSERSTACK_USERNAME",
+    "access_key": "YOUR_ACCESS_KEY"
+  },
+  "browsers": [
+    {
+      "browser": "chrome",
+      "os": "Windows",
+      "os_version": "10"
+    }
+  ],
+  "run_settings": {
+    "cypress_proj_dir": "./",
+    "cypress_config_file": "cypress.config.js"
+  }
+}
